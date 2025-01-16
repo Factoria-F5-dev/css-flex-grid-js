@@ -17,7 +17,7 @@ body {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(4, auto);
   grid-template-areas:
-    "header header header"
+    "nav nav nav"
     "contenido contenido sidebar"
     "bloque1 bloque2 sidebar"
     "footer footer footer";
@@ -32,7 +32,7 @@ body {
 nav {
   background: #ec9006;
   color: #fff;
-  grid-area: header;
+  grid-area: nav;
   padding: 20px;
   border-radius: 5px;
 }
@@ -81,7 +81,7 @@ footer {
 @media screen and (max-width: 768px) {
   .contenedor {
     grid-template-areas:
-      "header header header"
+      "nav nav nav"
       "contenido contenido contenido"
       "sidebar sidebar sidebar"
       "bloque1 bloque1 bloque2 "
