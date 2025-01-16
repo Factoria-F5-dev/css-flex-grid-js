@@ -29,7 +29,7 @@ body {
   border-radius: 5px;
 }
 
-header {
+nav {
   background: #ec9006;
   color: #fff;
   grid-area: header;
