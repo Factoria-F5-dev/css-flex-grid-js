@@ -19,31 +19,29 @@ body {
   grid-template-areas:
     "header header header"
     "contenido contenido sidebar"
-    "bloque-1 bloque-2 sidebar"
+    "bloque1 bloque2 sidebar"
     "footer footer footer";
 }
 
-.contenedor div,
-.contenedor .header,
-.contenedor .contenido,
-.contenedor .sidebar,
-.contenedor .footer {
+.contenido {
   background: #fff;
   padding: 20px;
   border-radius: 5px;
 }
 
-.contenedor .header {
+header {
   background: #ec9006;
   color: #fff;
   grid-area: header;
+  padding: 20px;
+  border-radius: 5px;
 }
 
-.contenedor .contenido {
+.contenido {
   grid-area: contenido;
 }
 
-.contenedor .sidebar {
+.sidebar {
   background: #67db9e;
   display: flex;
   align-items: center;
@@ -52,17 +50,7 @@ body {
   grid-area: sidebar;
 }
 
-.contenedor .bloque-1 {
-  grid-area: bloque-1;
-}
-
-.contenedor .bloque-2 {
-  grid-area: bloque-2;
-}
-
-.contenedor .bloque-1,
-.contenedor .bloque-2 {
-  background: #55a8fd;
+.bloque {
   color: #ffff;
   height: 100px;
   text-align: center;
@@ -72,10 +60,22 @@ body {
   border-radius: 5px;
 }
 
-.contenedor .footer {
+#bloque1 {
+  grid-area: bloque1;
+  background: #55a8fd;
+}
+
+#bloque2 {
+  grid-area: bloque2;
+  background: #1f6ab6;
+}
+
+footer {
   background: #4a4d50;
   color: #fff;
   grid-area: footer;
+  padding: 20px;
+  border-radius: 5px;
 }
 
 @media screen and (max-width: 768px) {
@@ -84,7 +84,7 @@ body {
       "header header header"
       "contenido contenido contenido"
       "sidebar sidebar sidebar"
-      "bloque-1 bloque-1 bloque-2 "
+      "bloque1 bloque1 bloque2 "
       "footer footer footer";
   }
 }
