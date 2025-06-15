@@ -1,17 +1,17 @@
-# Taller de Grid en CSS 🖼️
+# Taller de Flex,Grid en CSS e introducción a Javascript
 
-En este repositorio encontrarás un ejercicio práctico para aprender y practicar la propiedad **Grid** de CSS. Este taller te permitirá estructurar un diseño utilizando un sistema de cuadrícula flexible y adaptativo.
+En este repositorio encontrarás un ejercicio práctico para aprender y practicar las propiedades **Grid y Flex** de CSS, además de un primer acercamiento a javascript. Este taller te permitirá estructurar un diseño utilizando un sistema de cuadrícula flexible y adaptativo.
 
 ## 🧰 ¿Qué contiene este repositorio?
 
 - **index.html**: Este archivo ya incluye la estructura básica del diseño con las cajas y el contenido listo para estilizar.
 - **style.css**: Aquí encontrarás los estilos aplicados a las cajas y al diseño general.
-- 📄 **Estructura visual**: Una cuadrícula diseñada para que entiendas cómo funcionan las áreas y las filas/columnas en **Grid**.
+- **script.css**: En este archivo encontrarás el script para lograr el menú hamburguesa en modo responsive
 
 ### 🗂️ Ramas del repositorio
 
 - **main**: Contiene el ejercicio sin resolver, listo para que lo completes.
-- **solution**: Contiene el archivo `style.css` ya resuelto, con el diseño completo aplicado.
+- **solution**: Contiene el archivo `style.css` y `script.js` ya resuelto, con el código completo aplicado.
 
 ## ✨ Conceptos básicos sobre Grid
 
@@ -33,5 +33,6 @@ En este repositorio encontrarás un ejercicio práctico para aprender y practica
 3.	Explora y modifica el archivo style.css para observar cómo funcionan las propiedades de Grid.
 4.	Si necesitas ayuda o quieres comparar tu solución, cambia a la rama solution:
    ```git checkout solution```
+5. Agrega el script para que veas la magia de javascript!
 
 ````
